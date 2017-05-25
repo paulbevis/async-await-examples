@@ -1,0 +1,22 @@
+{
+  "name": "async-await-examples",
+  "version": "0.0.1",
+  "description": "Example project to demostrate async await",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-1": "./node_modules/.bin/babel-node ./js/example1.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "bluebird": "^3.5.0",
+    "install": "^0.10.1",
+    "node-fetch": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2017": "^6.24.1"
+  }
+}
