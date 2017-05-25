@@ -4,13 +4,13 @@
  > The purpose of async/await functions is to simplify the behavior of using promises synchronously and to perform some behavior on a group of Promises. Just like Promises are similar to structured callbacks, async/await is similar to combining generators and promises.
 
 
-### 1) Where/How can I use async functionality 
+### Where/How can I use async functionality 
 
-#### 2) Node v7.6.0 and onwards...
+* Node v7.6.0 and onwards...
 
-#### 3) Typescript
+* Typescript
 
-#### 4) babel - specify the preset es2017
+* babel - specify the preset es2017
 
 ### Why should I use it?
 
