@@ -15,10 +15,11 @@
 ### Why should I use it?
 
 1 Concise and clean
-* We don’t have to write .then 
-* create an anonymous function to handle the response, 
-* or give a name data to a variable that we don’t need to use. 
-* Also avoids nesting our code. 
+* We don’t have to write...
+*       .then 
+*       create an anonymous function to handle the response, 
+*       or give a name data to a variable that we don’t need to use. 
+*       Also avoids nesting our code. 
 
 
 2 Error handling
