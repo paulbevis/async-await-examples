@@ -5,7 +5,7 @@ const displayUserDetails = require('./utils');
 
 //////////////////////////////////////////////////////
 //
-// An async function returns a promise
+// An async function returns a promise, then awaits inside another async function
 //
 //////////////////////////////////////////////////////
 
@@ -19,5 +19,6 @@ async function showGitHubUserAsync(handle) {
   const user = await response.json();
   return user
 }
-
-showGitHubUserAsync("paulbevis").then(user => displayUserDetails('Async', user));
+(async () => {
+    displayUserDetails('Async', await showGitHubUserAsync("paulbevis"));
+  })();
