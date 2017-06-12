@@ -4,9 +4,15 @@
   "description": "Example project to demostrate async await",
   "main": "index.js",
   "scripts": {
-    "promise-to-async": "./node_modules/.bin/babel-node ./js/example1.js",
-    "async-returns-a-promise": "./node_modules/.bin/babel-node ./js/example2.js",
-    "async-returns-a-promise-used-in-async": "./node_modules/.bin/babel-node ./js/example3.js"
+    "1-promise-to-async": "./node_modules/.bin/babel-node ./js/example1.js",
+    "2-async-returns-a-promise": "./node_modules/.bin/babel-node ./js/example2.js",
+    "3-async-returns-a-promise-used-in-async-iife": "./node_modules/.bin/babel-node ./js/example3.js",
+    "4-async-class": "./node_modules/.bin/babel-node ./js/example4.js"    ,
+    "5-async-throws-error-returns-reject-promise": "./node_modules/.bin/babel-node ./js/example5.js" ,
+    "6-async-throws-error-catch-erorr-in-async": "./node_modules/.bin/babel-node ./js/example6.js",
+    "7-sequential-async-calls": "./node_modules/.bin/babel-node ./js/example7.js",
+    "8-parallel-async-calls": "./node_modules/.bin/babel-node ./js/example8.js",
+    "9-promise-all-async-calls": "./node_modules/.bin/babel-node ./js/example9.js"
   },
   "author": "",
   "license": "ISC",
